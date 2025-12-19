@@ -1,14 +1,14 @@
-# **Visual Forecast: Illuminating the Chinese EV Market Growth**
+## **Visual Forecast: Illuminating the Chinese EV Market Growth**
 *Project2*
 Author: Hongkun Tian, Zhiye Wang, Zilin Wang
 Team ID: T9  
 Date: 2025-12-17
 
-## **Abstract**
+### **Abstract**
 
 <div style="text-align: justify;">
 
-This project aims to **analyze and improve** a visualization that forecasts the Chinese electric vehicle (EV) market growth, based on data from EV-Volumes. The selected visualization is a complex chart showing China's BEV and PHEV demand, including light vehicle sales, EV volumes, market share, and growth rates. At the beginning of the project, we explained the reasons for the **theme selection** and **reproduce the original chart** using Python. Then, we deeply analyzed the information the visualization tries to convey and **the story it presents**. We also provided ideas for reading it. In addition, we evaluated **the strength and weakness of the original chart**. To address the identified shortcomings, we modified the visualization step by step. In the end, we generated improved visualizations that clearly illustrate the trends in China's EV market, uncovering **new insights** that are difficult to observe in the original visualization.
+This project aims to **analyze and improve** a visualization that forecasts the Chinese electric vehicle (EV) market growth, based on data from EV-Volumes. The selected visualization is a complex chart showing China's BEV and PHEV demand, including light vehicle sales, EV volumes, market share, and growth rates. At the beginning of the project, we explained the reasons for the **theme selection** and **reproduce the original chart** using Python. Then, we deeply analyzed the information the visualization tries to convey and **the story it presents**. We also provided ideas for reading it. In addition, we evaluated **the strength and weakness of the original chart**. To address the identified shortcomings, we modified the visualization step by step. In the end, we generated improved visualizations that clearly illustrate the trends in China's EV market, uncovering **new insights** that are difficult to observe in the original visualization. Source is available at https://ev-volumes.com/news/ev/evs-forecast-to-account-for-two-thirds-of-global-light-vehicle-sales-in-2035/.
 
 </div>
 
@@ -24,7 +24,7 @@ This project aims to **analyze and improve** a visualization that forecasts the 
 </p>
 <br>
 
-## **Contents**
+### **Contents**
 
 - [Abstract](#abstract)
 - [1. Introduction](#1-introduction)
@@ -38,13 +38,13 @@ This project aims to **analyze and improve** a visualization that forecasts the 
 - [5. Open Source](#5-open-source)
 - [6. Acknowledgments](#6-acknowledgments)
 
-## **1. Introduction**
+### **1. Introduction**
 
-### **1.1. Background**
+#### **1.1. Background**
 
 Imagine a market where electric vehicles (EVs) are not just a trend but a revolution: China's EV boom surged into 2022, skyrocketing market share from 13.9% in 2021 to an astonishing 26.7%. Written by EV-Volumes, this report dives into the heart of China's electrified future, where government targets for new-energy vehicles (NEVs)—encompassing BEVs, PHEVs, and even FCEVs—were smashed three years ahead of schedule. Amid economic headwinds like post-COVID recovery and real-estate woes, forecasts paint a bold picture of unstoppable expansion, promising to reshape transportation and sustainability worldwide.
 
-### **1.2. Reasons for Selection**
+#### **1.2. Reasons for Selection**
 
 We want to study the changes in Chinese EV sales and market penetration. We are interested in the factors affecting EV adoption and future trends in China. This chart comprehensively shows the historical and forecasted EV volumes, market share, and growth rates in China, which attracted our attention. Thus, we select it as our topic.
 
@@ -55,7 +55,7 @@ Generally, we have the following questions:
 
 To address these questions, we modified the original chart step by step for better visualization and analysis. This visualization highlights trends that could influence global policies on climate change and energy transition, promoting sustainable transportation and reducing carbon emissions.
 
-### **1.3. Stories in the Chart**
+#### **1.3. Stories in the Chart**
 
 We replicated the original chart and translated the Chinese text to English in the legend.
 
@@ -84,7 +84,7 @@ We got **the following stories** in the chart:
 - Segment shifts show A-segment EVs declining from 23% in 2021 to 15% in 2022, squeezed by B-segment growth from 1.7% to 5.5%, highlighting consumer preferences for larger models.
 <br>
 
-### **1.4. The Effectiveness of the Visualization**
+#### **1.4. The Effectiveness of the Visualization**
 <ul style="line-height: 1.8; margin-top: 10px;">
     <li><strong>Data-Ink Ratio</strong>: <br> The chart contains some redundant elements, such as overlapping bars and lines. From a cognitive perspective, these overlapping elements can overwhelm viewers' working memory, making it harder to process the data efficiently.</li>
     <li><strong>Lie Factor</strong>: <br> The visual changes accurately reflect the data changes.</li>
@@ -94,7 +94,7 @@ We got **the following stories** in the chart:
 ---
 
 
-## **2. Problem Statement**
+### **2. Problem Statement**
 
 <ul style="line-height: 1.5; margin-top: 10px;">
     <li style="margin-bottom: 15px;"><strong>The amount of information is too large</strong>, with multiple data series on one chart causing cognitive overload.</li>
@@ -109,7 +109,7 @@ We got **the following stories** in the chart:
 
 ---
 
-## **3. Modification**
+### **3. Modification**
 
 **For all modified charts,** we added clear titles, axis labels, and units. We improved readability by separating data into individual charts.
 
@@ -146,7 +146,7 @@ We got **the following stories** in the chart:
 
 ---
 
-## **4. Conclusion**
+### **4. Conclusion**
 **In conclusion**, we separated the original complex chart into three focused visualizations: BEV & PHEV Volume, PEV Share, and PEV Growth Rate, revealing clearer trends in China's EV market. Through modification, we uncovered insights about the rapid growth phase, market maturation, and the shift from PHEV to BEV dominance.
 
 Based on these trends, we can promote EV adoption through policy support, infrastructure development, and technology innovation.
@@ -155,13 +155,13 @@ This project underscores the importance of excellence in information visualizati
 
 ---
 
-## **5. Open Source**
+### **5. Open Source**
 
 The open-source code for this project can be found at [https://github.com/Phoenix-rebir/Chinese-EV](https://github.com/Phoenix-rebir/Chinese-EV).
 
 ---
 
-## **6. Acknowledgments**
+### **6. Acknowledgments**
 
 We would like to thank the instructors of the Information Visualization course for their guidance during the work sessions.
 
